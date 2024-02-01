@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(".container")
       .mouseenter(function () {
-        $(".card").stop().animate(
+        $(".cartao").stop().animate(
           {
             top: "-90px",
           },
@@ -9,7 +9,7 @@ $(document).ready(function () {
         );
       })
       .mouseleave(function () {
-        $(".card").stop().animate(
+        $(".cartao").stop().animate(
           {
             top: 0,
           },
